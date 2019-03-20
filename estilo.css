@@ -28,6 +28,10 @@ main {
   background-clip: border-box;
 }
 
+article {
+  white-space: pre-line;
+}
+
 header {
   margin-left: 154px;
 }
@@ -39,6 +43,7 @@ header h1 {
 }
 
 header h2 {
+  margin-right: 80px;
   font-family: trebuchet;
   font-size: 24px;
   color: #333;
@@ -93,6 +98,17 @@ article {
 
 #ticket {
   position: absolute;
-  top: 295;
-  left: 85;
+  top: 295px;
+  left: -73px;
+}
+
+footer {
+  height: 116px;
+}
+
+footer img{
+  position: absolute;
+
+  right: 115px;
+  bottom: 25px;
 }
