@@ -28,10 +28,6 @@ main {
   background-clip: border-box;
 }
 
-article {
-  white-space: pre-line;
-}
-
 header {
   margin-left: 154px;
 }
@@ -90,10 +86,13 @@ aside h2 {
 article {
   background-color: rgba(255,255,255,0.2);
   margin-left: 154px;
+  padding-left: 20px;
   width: 646px;
   border: 1px solid #aac0ae;
+  box-sizing: border-box;
+  line-height: 2em;
 
-
+  white-space: pre;
 }
 
 #ticket {
