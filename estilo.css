@@ -58,11 +58,20 @@ header h1{
   font-family: "ravie";
   color: #e90c0c;
   font-size: 36px;
+  margin-bottom: 0px;
 }
 
-header h2{
+header h2 {
+  font-family: Trebuchet MS;
+  color: #333;
+  font-size: 24px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
 
-
+#acai {
+  color: #d027aa;
 }
 
 .price {
@@ -95,6 +104,7 @@ article h3 {
 aside {
   position: absolute;
   width: 154px;
+  height: 100%;
   top: 0px;
   left: 0px;
 }
