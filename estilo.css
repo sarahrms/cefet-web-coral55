@@ -3,111 +3,115 @@
 
 html {
   min-height: 100%;
-  width: 1000px;
+  min-width: 100%;
 }
 
 body {
   width: 100%;
   height: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-clip: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  height: 65%;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  width: 646px;
+  left: 154px;
+  height: 10%;
 }
 
 main {
   background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+  position: relative;
+  width: 800px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
-  width: 800px;
-  height: 100%;
-  background-clip: border-box;
+  box-sizing: border-box;
 }
 
 header {
-  margin-left: 154px;
+  position: relative;
+  height: 25%;
+  width: 646px;
+  left: 154px;
 }
 
-header h1 {
-  font-family: 'Ravie';
-  font-size: 36px;
-  color: red;
+.price {
+  float: right;
 }
 
-header h2 {
-  margin-right: 80px;
-  font-family: trebuchet;
-  font-size: 24px;
+article {
+  position: relative;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #aac0ae;
+  background-color: rgba(255,255,255,0.2);
+  height: 100%;
+  width: 646px;
+  left: 154px;
+  box-sizing: border-box;
+  font-family: Verdana;
   color: #333;
-  text-align: right;
+  line-height: 2em;
+  font-style: 14px;
+
 }
 
-header span{
-  color: #d027aa;
+article h3 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 aside {
-  height: 100%;
   position: absolute;
-  top: 0px;
-  left: 100px;
   width: 154px;
-  font-family: verdana;
-  font-size: 48px;
-  color: #333;
+  top: 0px;
+  left: 0px;
 }
 
 aside h2 {
+  position: relative;
   display: block;
-  transform: rotate(-90deg); /* dado em graus, sentido horário */
+  top: 200px;
+  font-family: Verdana;
+  font-size: 48px;
+  color: #333;
+  font-style: bold;
+  transform: rotate(-90deg);
 }
 
 #siri {
-  position: absolute;
+  position: relative;
+  display: block;
   top: 7px;
   left: -10px;
 }
 
-#peixe {
-  position: absolute;
-  bottom: 0px;
-  left: -44px;
-}
-
 #bolhas {
-  position: absolute;
-  bottom: 125px;
+  position: relative;
+  display: block;
+  top: 225px;
 }
 
-article {
-  background-color: rgba(255,255,255,0.2);
-  margin-left: 154px;
-  padding-left: 20px;
-  width: 646px;
-  border: 1px solid #aac0ae;
-  box-sizing: border-box;
-  line-height: 2em;
-
-  white-space: pre;
+#peixe {
+  position: relative;
+  top: 0px;
+  left: -44px;
+  display: block;
 }
 
 #ticket {
-  position: absolute;
+  position: fixed;
   top: 295px;
-  left: -73px;
-}
-
-footer {
-  height: 116px;
-}
-
-footer img{
-  position: absolute;
-
-  right: 115px;
-  bottom: 25px;
+  left: -69px;
 }
