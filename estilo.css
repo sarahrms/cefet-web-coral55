@@ -7,15 +7,10 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
-  background-clip: content-box;
-  width: 800px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0px;
+  box-sizing: content-box;
 }
 
 section {
@@ -39,10 +34,15 @@ footer img {
 }
 
 main {
-  position: relative;
-  width: 100%;
+  background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+  background-clip: content-box;
+  width: 800px;
   height: 100%;
-  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
   padding: 0px;
   box-sizing: border-box;
 }
